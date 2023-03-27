@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: red;
+  background-color: black;
+}
+
+.HomePage, footer {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.headshot, .ContactInfo, .currently_working_at  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  border: white dotted 2px;
+
+}
+
+.ContactInfo {
+  width: 500px;
+}
