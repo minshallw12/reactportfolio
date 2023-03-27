@@ -2,7 +2,7 @@
 import './App.css'
 import HomePage from './components/HomePage'
 import Header from './components/Header'
-import NavBar from './components/Navbar'
+import BasicExample from './components/Navbar'
 
 
 
@@ -12,7 +12,7 @@ function App() {
       <div className='app_container'>
 
         <Header/>
-        <NavBar/>
+        <BasicExample/>
         <hr />
         <HomePage/>
         <hr />
