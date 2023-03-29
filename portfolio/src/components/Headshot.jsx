@@ -1,7 +1,9 @@
+import headshot from '../images/square.jpg'
+
 export default function Headshot() {
     return (
         <div className="headshot">
-            <img src="#" alt="headshot" id="Headshot"/>
+            <img src={headshot} alt="headshot" id="headshot"/>
         </div>
     )
 }
