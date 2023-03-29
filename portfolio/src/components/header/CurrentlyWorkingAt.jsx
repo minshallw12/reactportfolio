@@ -1,4 +1,4 @@
-import logo from '../images/cp.jpeg'
+import logo from '../../images/cp.jpeg'
 
 export default function CurrentlyWorkingAt() {
     return (
