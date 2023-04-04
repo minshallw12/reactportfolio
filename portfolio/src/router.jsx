@@ -1,8 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from './App';
+import Intro from './pages/intro';
 import AboutMe from "./pages/AboutMe";
 import Resume from './pages/Resume';
-import Portfolio from './pages/portfolio'
+import Portfolio from './pages/portfolio';
+import NoPage from "./pages/NoPage";
 
 const router = createBrowserRouter([
     {
@@ -11,7 +13,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <HomePage/>
+                element: <Intro/>
             },
             {
                 path: 'about_me',
@@ -24,7 +26,14 @@ const router = createBrowserRouter([
             {
                 path: 'portfolio',
                 element: <Portfolio/>
+            },
+            {
+                path: "*",
+                element: <NoPage/>
+
             }
         ]
     }
 ])
+
+export default router;

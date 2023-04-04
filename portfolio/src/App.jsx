@@ -1,8 +1,7 @@
-import './App.css'
-import HomePage from './pages/HomePage'
-import Header from './components/header/Header'
-import MyNavBar from './components/header/Navbar'
-
+import './App.css';
+import {Outlet} from 'react-router-dom';
+import Header from './components/header/Header';
+import MyNavBar from './components/header/Navbar';
 
 
 export default function App() {
@@ -12,7 +11,7 @@ export default function App() {
             <Header/>
             <MyNavBar/>
             <hr />
-            <HomePage/>
+            <Outlet/>
             <hr />
             <footer>Copyright© Will Minshall</footer>
 
