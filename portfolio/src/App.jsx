@@ -13,7 +13,7 @@ export default function App() {
             <hr />
             <Outlet/>
             <hr />
-            <footer>Copyright© Will Minshall</footer>
+            <footer>Copyright© 2023 --  Will Minshall</footer>
 
       </div>
     )

@@ -11,11 +11,10 @@ export default function MyNavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto navcenter">
-            
-            <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='/about_me'>About me</Nav.Link>
-            <Nav.Link href='/resume'>Resume</Nav.Link>
-            <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+            <Nav.Link ><Link className = 'NavLinks' to='/'>Home</Link></Nav.Link>
+            <Nav.Link ><Link className = 'NavLinks' to='/about_me'>About me</Link></Nav.Link>
+            <Nav.Link ><Link className = 'NavLinks' to='/resume'>Resume</Link></Nav.Link>
+            <Nav.Link ><Link className = 'NavLinks' to='/portfolio'>Portfolio</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
